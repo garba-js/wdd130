@@ -1,0 +1,76 @@
+:root {
+    --primary-color: #005F73;
+    --secondary-color: #0A9396;
+    --accent1-color: #94D2BD;
+    --accent2-color: #ffffff;
+    --accent2-fade-color: #ffffffbc;
+
+    --heading-font: "Anton", sans-serif;
+    --body-font: 'Open Sans', sans-serif;;
+}
+
+body {
+    font-family: var(--body-font);
+}
+
+h1, h2, h3, h4 {
+    font-family: var(--heading-font);
+}
+
+a {
+    text-decoration: none;
+}
+
+header, main, footer {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.hero {
+    position: relative;
+}
+
+.hero h1{
+    position: absolute;
+    top: 1em;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: var(--accent2-fade-color);
+    padding: 1rem;
+    color: var(--primary-color);
+}
+
+.hero> img {
+    width: 100%;
+}
+
+.hero article {
+    background-color: var(--accent2-fade-color);
+    position: absolute;
+    top: 15rem;
+    left: 2rem;
+    right: 2rem;
+}
+
+.hero article img {
+    float: right;
+    margin: 2rem;
+    width: 12rem;
+}
+
+.hero article p {
+    padding: 1rem;
+    color: var(--primary-color);
+}
+
+footer {
+    background-color: var(--primary-color);
+    color: var(--accent2-color);
+    display: grid;
+    padding: 2rem;
+    grid-template-columns: 2fr 1fr 1fr;
+}
+
+footer nav {
+    grid-column: 3;
+}
