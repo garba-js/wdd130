@@ -15,8 +15,8 @@
 }
 
 header, .grid, footer {
-    max-width: 840;
-    margin: 0;
+    max-width: 840px;
+    margin: 0 auto;
 }
 
 nav {
@@ -71,6 +71,7 @@ main img {
     height: var(--height-auto);
     float: right;
     padding: 2px;
+    margin: 20px;
     box-shadow: 0 0 30px gray;
     border: 1px solid steelblue;
 }
