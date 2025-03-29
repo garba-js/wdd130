@@ -33,23 +33,26 @@ header, main, footer {
 
 header {
     display: grid;
-    grid-template-columns: 150px 1fr 1fr;
-    grid-column: span;
+    grid-template-columns: 200px 1fr 1fr;
+    align-items: center;
+    background-color: var(--primary-color);
+    margin-bottom: 10px;
 }
 
 nav {
     display: flex;
-    flex-wrap: wrap;
     list-style: none;
-    background-color: var(--primary-color);
-    align-content: end;
+    justify-content: space-around;
 }
 
 nav a{
-    display: flex;
-    padding: 20px;
-    flex: 1 1 auto;
+    padding: 1em;
     color: var(--accent2-color);
+}
+
+nav a:hover {
+    background-color: var(--accent2-color);
+    color: var(--primary-color);
 }
 
 .hero {
@@ -89,6 +92,18 @@ nav a{
     color: var(--primary-color);
 }
 
+.history {
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+    gap: 2em;
+    padding: 1em 0;
+}
+
+.history h2 {
+    grid-column: 1/span 3;
+    justify-self: center;
+}
+
 .adventure {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -111,6 +126,7 @@ nav a{
     justify-content: center;
     align-items: center;
     margin: 0;
+    padding-bottom: 1em;
   }
 
   .adventure img {
