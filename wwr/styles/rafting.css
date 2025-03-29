@@ -13,8 +13,13 @@
     box-sizing: border-box;
 }
 
+img {
+    width: 100%;
+}
+
 body {
     font-family: var(--body-font);
+    margin: 0;
 }
 
 h1, h2, h3, h4 {
@@ -33,10 +38,9 @@ header, main, footer {
 
 header {
     display: grid;
-    grid-template-columns: 200px 1fr 1fr;
+    grid-template-columns: 200px auto;
     align-items: center;
     background-color: var(--primary-color);
-    margin-bottom: 10px;
 }
 
 nav {
