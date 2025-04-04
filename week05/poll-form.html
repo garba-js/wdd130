@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 130 | HTML Form - User Poll</title>
+    <link rel="stylesheet" href="styles/poll-form.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>WDD 130 | HTML Form - User Poll</h1>
+    </header>
+    <main>
+        <form>
+            <fieldset>
+                <legend>Contact Information</legend>
+                <label for="" fullname>Full Name:</label>
+                <input type="text" id="fullname" name="fullname">
+                <label for="useremail">Email:</label>
+                <input type="email" name="useremail" id="useremail">
+            </fieldset>
+            <fieldset>
+                <legend>Questions</legend>
+                <label for="browser">What is your favourite browser?</label>
+                <select name="browser" id="browser">
+                    <option value="chrome">chrome</option>
+                    <option value="microsoftedge">Microsoft Edge</option>
+                    <option value="firefox">FireFox</option>
+                    <option value="others">Others</option>
+                </select>
+                <label for="pet">DO you have a household pet?</label>
+                <input type="checkbox" name="pet" id="pet">
+                <label for="feedback">List the places you have lived.</label>
+                <textarea name="feedback" id="feedback" rows="2"
+                    placeholder="Jos Nigeria, Accra Ghana, Mexico Mexico"></textarea>
+            </fieldset>
+        </form>
+        <button type="submit">Submit Poll</button>
+    </main>
+    <footer>
+        <p>&copy;2025 | HTML Form - User Poll Activity | Joseph Samson Garba </p>
+    </footer>
+</body>
+
+</html>
