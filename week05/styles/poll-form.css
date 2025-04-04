@@ -59,12 +59,12 @@ label {
 
 input, select, textarea {
     padding: 1rem;
-    font-size: 1rem;
+    font-size: .4rem;
 }
 
 input[type='checkbox'] {
-    width: 20px;
-    height: 20px;
+    width: 19px;
+    height: 19px;
     vertical-align: bottom;
 }
 
