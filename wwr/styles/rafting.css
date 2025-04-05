@@ -262,7 +262,7 @@ textarea {
 
 button {
     margin:.5rem 2.6rem;
-    background-color: var(--primary-color);
+    background-color: var(--secondary-color);
     color: var(--accent2-color);
     border-radius: .2rem;
     border: none;
