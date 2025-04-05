@@ -145,6 +145,10 @@ footer {
     grid-template-columns: 2fr 1fr 1fr;
 }
 
+footer a {
+    color: var(--accent1-color);
+}
+
 .social {
     grid-column: 3;
 }
