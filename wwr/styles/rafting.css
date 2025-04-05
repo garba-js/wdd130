@@ -167,7 +167,6 @@ footer a {
     gap: 2em;
     padding: 1em 0;
     align-items: center;
-    border: 1px solid var(--primary-color);
 }
 
 .info h1 {
