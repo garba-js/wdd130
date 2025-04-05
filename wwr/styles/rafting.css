@@ -162,8 +162,19 @@ footer a {
 
 .info {
     display: grid;
-    grid-template-columns: 3fr 3fr;
-    grid-area: 1rem;
+    grid-template-columns: 2fr 1fr 2fr;
+    gap: 2em;
+    padding: 1em 0;
+}
+
+.info h1 {
+    grid-column: 1/span 3;
+    justify-self: center;
+}
+
+.map {
+    border:0;
+    justify-self: right;
 }
 
 .profile {
@@ -196,9 +207,10 @@ legend {
     font-size: 1.5rem;
 }
 
+
 label {
-    text-align: left;
     padding-left: 1rem;
+    margin: 0;
 }
 
 fieldset {
@@ -213,16 +225,23 @@ fieldset {
     align-items: center;
 }
 
+.row1 {
+    grid-template-columns: .3fr 3fr;
+    margin: 0;
+
+}
+
+.column1 {
+    grid-template-columns: .3fr 2fr;
+    text-align: right;
+    gap: 1rem;
+    margin-right: 1rem;
+}
+
 input[type='checkbox'] {
     width: 20px;
     height: 20px;
     vertical-align: bottom;
-}
-
-.row1 {
-    display: grid;
-    grid-template-rows:1fr 2fr ;
-    padding-bottom: 1rem;
 }
 
 input, textarea {
