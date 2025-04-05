@@ -194,6 +194,11 @@ footer a {
     grid-row: 2;
 }
 
+figcaption {
+    padding: 10px 0;
+    font-weight: 600;
+}
+
 .profile h2 {
     grid-column: 1/span 3;
     grid-row: 1;
