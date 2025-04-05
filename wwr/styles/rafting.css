@@ -143,6 +143,7 @@ footer {
     display: grid;
     padding: 2rem;
     grid-template-columns: 2fr 1fr 1fr;
+    align-items: center;
 }
 
 footer a {
@@ -162,9 +163,11 @@ footer a {
 
 .info {
     display: grid;
-    grid-template-columns: 2fr 1fr 2fr;
+    grid-template-columns: 2fr .5fr 2fr;
     gap: 2em;
     padding: 1em 0;
+    align-items: center;
+    border: 1px solid var(--primary-color);
 }
 
 .info h1 {
@@ -172,10 +175,15 @@ footer a {
     justify-self: center;
 }
 
-.map {
-    border:0;
-    justify-self: right;
+.info p {
+    margin-left: 1rem;
 }
+
+.map {
+    grid-column: 3;
+    border:0;
+    justify-self: center;
+} 
 
 .profile {
     display: grid;
