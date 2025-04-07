@@ -147,7 +147,7 @@ footer {
 }
 
 footer a {
-    color: var(--accent1-color);
+    color: var(--accent2-color);
 }
 
 .social {
@@ -267,7 +267,7 @@ textarea {
 
 button {
     margin:.5rem 2.6rem;
-    background-color: var(--secondary-color);
+    background-color: var(--primary-color);
     color: var(--accent2-color);
     border-radius: .2rem;
     border: none;
