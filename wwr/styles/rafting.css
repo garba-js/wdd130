@@ -159,6 +159,68 @@ footer a {
 }
 
 
+/*Home Page css styling  */
+
+.base {
+    position: relative;
+}
+
+.base h1 {
+    position: absolute;
+    top: 5rem;
+    left: 5rem;
+    color: var(--accent2-color);
+    letter-spacing: 2px;
+    font-weight: 50;
+}
+
+.base article {
+    position: absolute;
+    top: 8.5rem;
+    left: 5rem;
+    color: var(--accent2-color);
+}
+
+form {
+    position: absolute;
+    top: 15rem;
+    left: 5rem;
+}
+
+.mission {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem 1rem;
+}
+
+.mission h2 {
+    grid-column: 1/span 3;
+    grid-row: 1;
+    justify-self: center;
+}
+
+.cols1 {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    gap: 2em;
+    padding: 1em 0;
+}
+
+.cols2 {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    gap: 2em;
+    padding: 1em 0;
+}
+
+.brief p {
+    align-items: center;
+}
+
+
+
+
+
 /*Contac us css styling  */
 
 .info {
