@@ -261,10 +261,28 @@ article p {
     color: var(--primary-color);
 }
 
-.cta article p {
-    position: absolute;
-    top: 10rem;
-    left: 20rem;
+table {
+    width: 50%;
+    align-self: center;
+    padding: 2rem 0;
+    margin: auto;
+}
+
+th {
+    text-align: center;
+    background-color: var(--primary-color);
+    color: var(--accent2-color);
+    height: 40px;
+}
+
+td {
+    text-align: left;
+    height: 20px;
+    padding: 5px 10px;
+}
+
+tr:nth-child(even){
+    background-color: var(--accent1-color);
 }
 
 .trips {
