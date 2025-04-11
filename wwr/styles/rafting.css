@@ -165,7 +165,7 @@ footer a {
     position: relative;
 }
 
-.base h1 {
+article h1 {
     position: absolute;
     top: 7rem;
     left: 5rem;
@@ -174,7 +174,7 @@ footer a {
     font-weight: 50;
 }
 
-.base article {
+article p {
     position: absolute;
     top: 10.5rem;
     left: 5rem;
