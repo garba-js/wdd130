@@ -175,6 +175,10 @@ footer a {
     font-weight: 800;
 }
 
+.book:hover {
+    transform: scale(1.05);
+}
+
 article h1 {
     position: absolute;
     top: 7rem;
@@ -255,6 +259,11 @@ article p {
 .mission img {
     width: 250px;
     box-shadow: 0 0 25px gray;
+    transition: transform 0.3s ease;
+}
+
+.mission img:hover {
+    transform: scale(1.05);
 }
 
 
@@ -345,7 +354,8 @@ tr:nth-child(even){
 }
   
   .trips figure {
-    width: 250px;
+    width: 350px;
+    margin: 2rem 0;
     text-align: left;
     background-color: white;
     border-radius: 8px;
