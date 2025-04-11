@@ -353,6 +353,10 @@ tr:nth-child(even){
     grid-column: 1/span 3;
     grid-row: 1;
 }
+
+.trips h3 {
+    letter-spacing: 2px;
+}
   
   .trips figure {
     width: 350px;
@@ -378,6 +382,7 @@ tr:nth-child(even){
   .trips figcaption {
     padding: 2px 0.5rem;
     font-weight: bold;
+    font-size: 14px;
 }
   
 
