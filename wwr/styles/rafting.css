@@ -167,7 +167,7 @@ footer a {
 
 .base h1 {
     position: absolute;
-    top: 5rem;
+    top: 7rem;
     left: 5rem;
     color: var(--accent2-color);
     letter-spacing: 2px;
@@ -176,16 +176,27 @@ footer a {
 
 .base article {
     position: absolute;
-    top: 8.5rem;
+    top: 10.5rem;
     left: 5rem;
     right: 30rem;
     color: var(--accent2-color);
 }
 
-form {
+.newsletter-form {
     position: absolute;
     top: 15rem;
-    left: 5rem;
+    left: 4rem;
+    max-width: 200rem;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+.newsletter-button {
+    border-radius: 0;
+    padding: .3rem;
+    margin: 15px;
 }
 
 .mission {
@@ -198,6 +209,11 @@ form {
     grid-column: 1/span 3;
     grid-row: 1;
     justify-self: center;
+    letter-spacing: 2px;
+}
+
+.mission img {
+    width: 250px;
 }
 
 .cols1 {
@@ -222,6 +238,7 @@ form {
 
 
 
+
 /*Contac us css styling  */
 
 .info {
@@ -235,6 +252,7 @@ form {
 .info h1 {
     grid-column: 1/span 3;
     justify-self: center;
+    letter-spacing: 2px;
 }
 
 .info p {
@@ -266,6 +284,7 @@ figcaption {
     grid-column: 1/span 3;
     grid-row: 1;
     justify-self: center;
+    letter-spacing: 2px;
 }
 
 form {
