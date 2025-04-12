@@ -327,7 +327,7 @@ td {
 }
 
 tr:nth-child(even){
-    background-color: var(--accent1-color);
+    background-color: rgba(22, 22, 75, 0.2);
 }
 
 
@@ -346,7 +346,7 @@ tr:nth-child(even){
     grid-template-columns: repeat(3, 1fr);
     gap: 1.5rem;
     padding: 1rem;
-    background-color: var(--accent1-color); 
+    background-color: rgb(200, 229, 244); 
     justify-items: center;
     margin-bottom: 4rem;
 }
