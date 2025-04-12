@@ -159,6 +159,7 @@ footer a {
 }
 
 
+
 /*Home Page css styling  */
 
 .base {
@@ -267,7 +268,6 @@ article p {
 .mission img:hover {
     transform: scale(1.05);
 }
-
 
 .cols1 {
     display: grid;
