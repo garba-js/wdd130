@@ -249,7 +249,7 @@ article p {
     display: grid;
     grid-template-columns: 1fr 3fr;
     background-color: var(--accent2-fade-color);
-    border: 1;
+    border: 1px solid var(--primary-color);
     padding: 1rem 0;
     margin: 5rem auto;
 }
