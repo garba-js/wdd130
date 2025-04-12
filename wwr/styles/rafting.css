@@ -92,6 +92,7 @@ nav a:hover {
 }
 
 .hero article p {
+    top: 1rem;
     padding: 1rem;
     color: var(--primary-color);
 }
