@@ -168,11 +168,13 @@ footer a {
 .book {
     position: absolute;
     top: 16rem;
-    left: 2rem;
+    left: 5rem;
     width: 20rem;
     background-color: var(--accent2-color);
     color: var(--primary-color);
     font-weight: 800;
+    padding: .5rem;
+    text-align: center;
 }
 
 .book:hover {
@@ -356,9 +358,11 @@ tr:nth-child(even){
 
 .trips h3 {
     letter-spacing: 2px;
+    margin: 10px 1rem;
+    font-size: 2rem;
 }
   
-  .trips figure {
+  .trips section {
     width: 350px;
     margin: 2rem 0;
     text-align: left;
@@ -367,9 +371,10 @@ tr:nth-child(even){
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0,0,0,0.2);
     transition: transform 0.3s ease;
+    padding-bottom: 1rem;
 }
   
-  .trips figure:hover {
+  .trips section:hover {
     transform: scale(1.05);
 }
   
@@ -379,10 +384,11 @@ tr:nth-child(even){
     display: block;
 }
   
-  .trips figcaption {
-    padding: 2px 0.5rem;
+  .trips p {
+    padding: 0px 0.5rem;
     font-weight: bold;
     font-size: 14px;
+    margin: 3px 1rem;
 }
   
 
