@@ -247,8 +247,8 @@ article p {
 .newsletter-form {
     display: grid;
     grid-template-columns: 1fr 3fr;
-    background-color: #96b8ed57;
-    border: 0;
+    background-color: var(--accent2-fade-color);
+    border: 1;
     padding: 1rem 0;
     margin: 5rem auto;
 }
